@@ -1,0 +1,35 @@
+2023-02-27 22:10:35 [main] feign.slf4j.Slf4jLogger.log()
+DEBUG: [GeoLocator#getGeoLocation] ---> GET https://reallyfreegeoip.org/json HTTP/1.1
+2023-02-27 22:10:35 [main] feign.slf4j.Slf4jLogger.log()
+DEBUG: [GeoLocator#getGeoLocation] ---> END HTTP (0-byte body)
+2023-02-27 22:10:37 [main] feign.slf4j.Slf4jLogger.log()
+DEBUG: [GeoLocator#getGeoLocation] <--- HTTP/1.1 200 OK (1956ms)
+2023-02-27 22:10:37 [main] feign.slf4j.Slf4jLogger.log()
+DEBUG: [GeoLocator#getGeoLocation] access-control-allow-origin: *
+2023-02-27 22:10:37 [main] feign.slf4j.Slf4jLogger.log()
+DEBUG: [GeoLocator#getGeoLocation] alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+2023-02-27 22:10:37 [main] feign.slf4j.Slf4jLogger.log()
+DEBUG: [GeoLocator#getGeoLocation] cf-cache-status: DYNAMIC
+2023-02-27 22:10:37 [main] feign.slf4j.Slf4jLogger.log()
+DEBUG: [GeoLocator#getGeoLocation] cf-ray: 7a03e884aede780f-VIE
+2023-02-27 22:10:37 [main] feign.slf4j.Slf4jLogger.log()
+DEBUG: [GeoLocator#getGeoLocation] connection: keep-alive
+2023-02-27 22:10:37 [main] feign.slf4j.Slf4jLogger.log()
+DEBUG: [GeoLocator#getGeoLocation] content-length: 240
+2023-02-27 22:10:37 [main] feign.slf4j.Slf4jLogger.log()
+DEBUG: [GeoLocator#getGeoLocation] content-type: application/json
+2023-02-27 22:10:37 [main] feign.slf4j.Slf4jLogger.log()
+DEBUG: [GeoLocator#getGeoLocation] date: Mon, 27 Feb 2023 21:10:38 GMT
+2023-02-27 22:10:37 [main] feign.slf4j.Slf4jLogger.log()
+DEBUG: [GeoLocator#getGeoLocation] nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2023-02-27 22:10:37 [main] feign.slf4j.Slf4jLogger.log()
+DEBUG: [GeoLocator#getGeoLocation] report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2pXdslSe90CPoCOGh6128uyuJvQD8gomRtpWau02tWrApynveESEvJlv6CcLvy0N9ehlS5hJBY%2BjVLrSUGbkWtDb3RF4R1mcNPI8PG7pm%2FfOrxNtBYA6%2BW1qsdv0c4lONAC9fCgz"}],"group":"cf-nel","max_age":604800}
+2023-02-27 22:10:37 [main] feign.slf4j.Slf4jLogger.log()
+DEBUG: [GeoLocator#getGeoLocation] server: cloudflare
+2023-02-27 22:10:37 [main] feign.slf4j.Slf4jLogger.log()
+DEBUG: [GeoLocator#getGeoLocation] 
+2023-02-27 22:10:37 [main] feign.slf4j.Slf4jLogger.log()
+DEBUG: [GeoLocator#getGeoLocation] {"ip":"188.36.180.209","country_code":"HU","country_name":"Hungary","region_code":"FE","region_name":"Fejér","city":"Székesfehérvár","zip_code":"8000","time_zone":"Europe/Budapest","latitude":47.1899,"longitude":18.4103,"metro_code":0}
+
+2023-02-27 22:10:37 [main] feign.slf4j.Slf4jLogger.log()
+DEBUG: [GeoLocator#getGeoLocation] <--- END HTTP (240-byte body)
